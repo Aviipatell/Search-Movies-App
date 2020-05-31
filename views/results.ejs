@@ -1,0 +1,13 @@
+<h1>
+	Results Page:
+</h1>
+
+<ul>
+<% for (var i = 0; i < parsedData.Search.length; i++) { %>
+	
+	<li><strong><%= parsedData.Search[i].Title %></strong> - <%= parsedData.Search[i].Year %></li>
+
+<% } %>
+</ul>
+
+<a href = "/">Search Again</a>
